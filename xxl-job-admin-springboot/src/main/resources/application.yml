@@ -1,0 +1,28 @@
+#server:
+#  port: 8080
+
+#spring:
+#  mvc:
+#    static-path-pattern:  /static/**
+#  boot:
+#    admin:
+#      url: http://localhost:9527
+#      api-path: instances
+#      username: admin
+#      password: kratos
+#  application:
+#    name: "fraud-job-admin"
+#management:
+#  security:
+#    enabled: false
+#  freemarker:
+#    request-context-attribute: req  #req访问request
+#    suffix: .ftl  #后缀名
+#    content-type: text/html
+#    enabled: true
+#    cache: false #缓存配置
+#    template-loader-path: classpath:/templates/ #模板加载路径 按需配置
+#    charset: UTF-8 #编码格式
+#    settings:
+#      number_format: '0.##' #数字格式化，无小数点
+
